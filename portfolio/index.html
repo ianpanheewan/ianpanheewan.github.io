@@ -69,8 +69,13 @@
 				<a href="#7thPage">
 				Portfolio05</a>
 				</li>
-				<li data-menuanchor="8thPage" class="lnbContact">
+				<li data-menuanchor="8thPage" class="lnbPort05">
 				<a href="#8thPage">
+				Portfolio06</a>
+				</li>
+
+				<li data-menuanchor="9thPage" class="lnbContact">
+				<a href="#9thPage">
 				Contact</a>
 				</li>
 			</ul>
@@ -708,10 +713,11 @@
 			</div>
 			<!--section06-->
 
+
 			<!--section02-->
-			<div class="section" id="section2">
+			<div class="section section2">
 				<!--portfolio01-->
-				<div class="portfolio01">
+				<div class="portfolio06">
 
 					<!--inner-->
 					<div class="inner cf">
@@ -727,9 +733,7 @@
 
 								<!--메인텍스트-->
 								<div class="portTxt">
-									<!-- <p>#01</p> -->
 									<h3>통증 시그널 빅데이터 수집 플랫폼 연동을 통한 통증측정기 고도화 기술개발</h3>
-									<!-- <h3>웹(UI/UX)</h3> -->
 								</div>
 								<!--메인텍스트-->
 								<!--홈페이지화면-->
@@ -765,7 +769,7 @@
 
 
 			<!--section03-->
-			<div class="section" id="section3">
+			<div class="section section3" >
 				<!--portfolio02-->
 				<div class="portfolio02">
 
@@ -817,6 +821,58 @@
 			<!--section03-->
 
 
+			<!--section04-->
+			<div class="section section4">
+				<!--portfolio03-->
+				<div class="portfolio03">
+
+					<!--inner-->
+					<div class="inner cf">
+						<!--좌측메뉴-->
+						<div class="portL">
+							<!--텍스트박스-->
+							<div class="txtBox">
+								<!--페이지소개-->
+								<p class="pageName">
+								Portfolio
+								</p>
+								<!--페이지소개-->
+
+								<!--메인텍스트-->
+								<div class="portTxt">
+									<h3>캔서케어 서비스를 위한 이종 빅데이터 통합 및 처리 기술 개발</h3>
+								</div>
+								<!--메인텍스트-->
+								<!--홈페이지화면-->
+								<div style='padding:10px 40px;'>
+
+								</div>
+								<!--홈페이지화면-->
+
+							</div>
+							<!--텍스트박스-->
+						</div>
+						<!--좌측메뉴-->
+
+						<!--우측메뉴-->
+						<dl class="portR">
+							<dt class="firstTit">국책과제 - 보건복지부</dt>
+							<dd class="firstTxt">
+								PM, Database Modeling<br>
+								웹사이트 설계 및 개발<br>
+								하이브리드앱 설계 및 개발<br>
+							</dd>
+							<dd class="firstTxt">
+								ExtJS, Javascript, ASP, Android APP, MSSQL
+							</dd>
+						</dl>
+						<!--우측메뉴-->
+					</div>
+					<!--inner-->
+				</div>
+				<!--portfolio03-->
+			</div>
+			<!--section04-->
 
 
 
@@ -893,6 +949,17 @@
 <script type="text/javascript">
 <!--
 $(document).ready(function() {
+	//fullpage//
+	$('#fullpage').fullpage({
+		sectionSelector: '.section',
+		scrolloverflow:true,
+		anchors: ['1stPage', '2ndPage', '3rdPage', '4thPage', '5thPage', '6thPage', '7thPage','8thPage','9thPage','10thPage'],
+		navigation:true,
+		navigationTooltips: ['Intro', 'About', 'Portfolio01', 'Portfolio02', 'Portfolio03', 'Portfolio04', 'Portfolio05', 'Portfolio06', 'Portfolio07', 'Portfolio08', 'Contact'],
+		slidesNavigation: true,
+		menu: '#menu',
+	})
+
 	//fancybox setting
 	$(".fancybox").fancybox({
 		type:'image',

@@ -137,7 +137,8 @@ pageName span{
 }
 
 
-#section1 .txtBox, #section2 .txtBox, #section3 .txtBox, #section4 .txtBox, #section5 .txtBox{
+/*#section1 .txtBox, #section2 .txtBox, #section3 .txtBox, #section4 .txtBox, #section5 .txtBox{*/
+.section .txtBox{
 	background: rgba(102,112,103,0.2);
 }
 
@@ -366,12 +367,22 @@ pageName span{
 	width: 100%;
 
 }
+.section2{
+	background: #80abbc;
+	width: 100%;
+}
+
 .portfolio01 .viewBtnOn{
 	padding: 105px 0;
 }
 
 /***Portfolio02***/
 #section3{
+	background: #f1e4b1;
+	width: 100%;
+
+}
+.section3{
 	background: #f1e4b1;
 	width: 100%;
 
@@ -392,6 +403,11 @@ pageName span{
 
 /***Portfolio03***/
 #section4{
+	background: #fb9da3;
+	width: 100%;
+	padding: 51px 0;
+}
+.section4{
 	background: #fb9da3;
 	width: 100%;
 	padding: 51px 0;
@@ -430,6 +446,11 @@ pageName span{
 	width: 100%;
 
 }
+.section5{
+	background: #7accc8;
+	width: 100%;
+
+}
 /**좌측메뉴**/
 .portfolio04 .mainPage{
 	background: url(../../images/hansolMain.png) no-repeat center center;
@@ -457,6 +478,11 @@ pageName span{
 
 /***Portfolio05***/
 #section6{
+	background: #b7d8cf;
+	width: 100%;
+
+}
+.section6{
 	background: #b7d8cf;
 	width: 100%;
 
