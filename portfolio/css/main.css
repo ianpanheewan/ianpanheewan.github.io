@@ -106,10 +106,10 @@ pageName span{
 	/*width: 357px;*/
 	position: absolute;
 	top: 50%;
-	margin-top: -153px; 
+	margin-top: -153px;
 	left: 278px;
 }
-.introTxt dt{	
+.introTxt dt{
 	font-size: 60px;
 	line-height: 80px;
 	font-weight: 900;
@@ -203,7 +203,8 @@ pageName span{
 	float: right;
 	margin: 0 auto;
 	line-height: 35px;
-	padding: 78px 0;
+	padding: 0px 0;
+	/*padding: 78px 0;*/
 }
 
 .aboutR dt{
@@ -238,7 +239,8 @@ pageName span{
 
 .portTxt{
 	text-align: left;
-	margin-left: 279px;
+	/*margin-left: 279px;*/
+	margin-left: 40px;
 	padding: 35px 0;
 }
 .portTxt p{
@@ -270,7 +272,7 @@ pageName span{
 .mViewBtn{
 	background: url(../../images/goOff.png) no-repeat center center;
 	background-size: cover;
-	width: 80px; 
+	width: 80px;
 	height: 68px;
 	position: absolute;
 	top: 130px;
@@ -285,7 +287,7 @@ pageName span{
 .mViewBtn:hover{
 	background: url(../../images/goOn.png) no-repeat center center;
 	background-size: cover;
-	width: 80px; 
+	width: 80px;
 	height: 68px;
 	position: absolute;
 	top: 130px;
@@ -386,7 +388,7 @@ pageName span{
 /**우측메뉴**/
 .portfolio02 .viewBtnOn{
 	padding: 185px 0;
-} 
+}
 
 /***Portfolio03***/
 #section4{
@@ -405,7 +407,7 @@ pageName span{
 	padding: 140px 0;
 }
 .portfolio03 .portTxt{
-	padding-bottom: 50px; 
+	padding-bottom: 50px;
 }
 
 /**우측메뉴**/
@@ -419,7 +421,7 @@ pageName span{
 
 .portfolio03 .viewBtnOn{
 	padding:152px 0;
-} 
+}
 
 
 /***Portfolio05***/
@@ -451,7 +453,7 @@ pageName span{
 
 .portfolio04 .viewBtnOn{
 	padding: 161px 0;
-} 
+}
 
 /***Portfolio05***/
 #section6{
@@ -464,7 +466,7 @@ pageName span{
 	background: url(../../images/main04.png) no-repeat center center;
 	width: 231px;
 	height: 284px;
-	
+
 }
 
 .portfolio05 .txtBox{
@@ -484,7 +486,7 @@ pageName span{
 
 .portfolio05 .viewBtnOn{
 	padding: 162px 0;
-} 
+}
 
 /***Contact***/
 #section7{
